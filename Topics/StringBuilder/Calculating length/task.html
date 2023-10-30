@@ -1,0 +1,19 @@
+<h2>Calculating length</h2>
+<div class="step-text">
+<p></p>
+<p>Enter the value of the <code class="java">currentLength</code> variable after the following code is executed:</p>
+<pre><code class="java">StringBuilder firstBuilder = new StringBuilder("Java");
+
+firstBuilder
+    .append("J")
+    .append("a")
+    .append("v")
+    .append("a");
+
+firstBuilder.deleteCharAt(0);
+
+StringBuilder secondBuilder = new StringBuilder(firstBuilder);
+secondBuilder.append(firstBuilder);
+
+int currentLength = secondBuilder.length();</code></pre>
+</div>
